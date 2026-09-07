@@ -1,0 +1,41 @@
+
+
+
+Admin@Sameer-Sir MINGW64 ~/Documents/T388_Sql
+$ git init
+Initialized empty Git repository in C:/Users/Admin/Documents/T388_Sql/.git/
+
+Admin@Sameer-Sir MINGW64 ~/Documents/T388_Sql (master)
+$ git add .
+warning: in the working copy of 'T388_sql.sql', LF will be replaced by CRLF the next time Git touche
+s it
+
+Admin@Sameer-Sir MINGW64 ~/Documents/T388_Sql (master)
+$ git commit -m "SQL file upload"
+[master (root-commit) f3de66d] SQL file upload
+ 1 file changed, 55 insertions(+)
+ create mode 100644 T388_sql.sql
+
+Admin@Sameer-Sir MINGW64 ~/Documents/T388_Sql (master)
+$ git add .
+
+Admin@Sameer-Sir MINGW64 ~/Documents/T388_Sql (master)
+$ git branch -M main
+
+Admin@Sameer-Sir MINGW64 ~/Documents/T388_Sql (main)
+$ git remote add origin "https://github.com/Sam123ds/T388_sql"
+
+Admin@Sameer-Sir MINGW64 ~/Documents/T388_Sql (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 781 bytes | 260.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Sam123ds/T388_sql
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Admin@Sameer-Sir MINGW64 ~/Documents/T388_Sql (main)
+$
